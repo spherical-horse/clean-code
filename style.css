@@ -12,6 +12,7 @@
 }
 .header__img{
   width: 100%;
+  display: block;
 }
 
 .header__more-info{
@@ -71,6 +72,10 @@ button {
 }
 button:hover {
   color: #3a3a3a;
+}
+.add-section{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 .section-header,
 .add-section__label {
