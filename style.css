@@ -64,13 +64,17 @@ button{
 button {
   background: none;
   border: 0px;
+}
+.task-wrapper__edit-button,
+.delete-button,
+.task-row__button {
   color: #888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.task-wrapper__edit-button:hover {
   color: #3a3a3a;
 }
 .add-section{
